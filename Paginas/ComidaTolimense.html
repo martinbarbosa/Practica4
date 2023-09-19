@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<head>
+  <head>
     <title>Mi Página de Comida Tolimense</title>
     <link rel="stylesheet" href="../stilo.css"/>
     
@@ -8,43 +8,81 @@
   
   <body>
     <header>
-      <h1>COMIDA TOLIMENSE</h1>
-      <img src="../Imagenes/tamal.jpg"
-      height="400"
-      width="600">      
+      <h1 class="titulo">COMIDA TOLIMENSE</h1>
+      <div class="container">
+        <img src="../Imagenes/tamal.jpg">
+      </div>
+             
     </header>
   
-  <nav>
-    <ul>
-      <li><a href="../index.html">Inicio</a></li>
-      <li><a href="../Paginas/ComidaPaisa.html">Cocina Paisa</a></li>
-      <li><a href="">Cocina Tolimense</a></li>
-      <li><a href="../Paginas/ComidaRola.html">Cocina Rola</a></li>
-      <li><a href="../Paginas/PrincipalesIngredientes.html">Principales Ingredientes</a></li>
-    </ul>
-  
-  
-  </nav>
-  
-  
-  
-  </body>
-  
-  <article>
+    <nav>
+      <ul id="main-nav" class="nav">
+        <li class="nav_item"><a href="../index.html">Inicio</a></li>
+        <li class="nav_item"><a href="../Paginas/ComidaPaisa.html">Cocina Paisa</a></li>
+        <li class="nav_item"><a href="../Paginas/ComidaTolimense.html">Cocina Tolimense</a></li>
+        <li class="nav_item"><a href="../Paginas/ComidaRola.html">Cocina Rola</a></li>
+        <li class="nav_item"><a href="../Paginas/PrincipalesIngredientes.html">Principales Ingredientes</a></li>
+      </ul>
+    </nav>
+    
+    <main>
+      <section>
+        <article id="rola_article" class="article">
+         <p>El tamal tolimense es tal vez el más conocido en Colombia, pues lo hemos</p> 
+         <p>adoptado como uno de nuestros grandes emblemas, junto a la lechona y el</p> 
+         <p>bambuco. Su principal característica es su envoltorio, pues estos son </p>
+         <p>redondos y se empacan en forma de bolsa en una hoja de cachaco. Por lo general,</p> 
+         <p>los tamales tolimenses se preparan con huevo cocido, cerdo, pollo, arroz,</p> 
+         <p>arveja, zanahoria, papa y otros ingredientes típicos del departamento.</p> 
+         <p>stos, suelen formar parte de los desayunos y se acompañan con pan o arepa </p>
+         <p>y una taza de chocolate caliente.</p>
+        <article>
 
-    <p style="color: black; font-family: Arial; font-size: 18px; text-align:justify">
-      El tamal tolimense es tal vez el más conocido en Colombia, pues lo hemos 
-      adoptado como uno de nuestros grandes emblemas, junto a la lechona y el 
-      bambuco. Su principal característica es su envoltorio, pues estos son 
-      redondos y se empacan en forma de bolsa en una hoja de cachaco. Por lo general, 
-      los tamales tolimenses se preparan con huevo cocido, cerdo, pollo, arroz, 
-      arveja, zanahoria, papa y otros ingredientes típicos del departamento. 
-      stos, suelen formar parte de los desayunos y se acompañan con pan o arepa 
-      y una taza de chocolate caliente.
-    </p>
-  </article>
+      <section>
+        <h2 class="Ingredientes">Ingredientes</h2>
+        <ul class="section-ingredientes">
+          <li>2 libras de costillas de cerdo cortada en trozos pequeños</li>
+          <li>12 piezas de pollo</li>
+          <li>1 libra de tocino de cerdo cortado en trozos pequeños</li>
+          <li>4 papas medianas peladas y en rodajas</li>
+          <li>2 zanahorias grandes peladas y en rodajas</li>
+          <li>6 huevos cocidos en rodajas</li>
+          <li>1 taza de arvejas</li>
+          <li>3 tazas de arroz cocinado</li>
+        </ul>
+
+        <h3 class="Modo-preparacion">Modo de preparacion</h3>
+        <ol class="section-modo-preparacion">
+          <li>Coloque todos los ingredientes de los aliños en la licuadora y mezcle 
+            hasta que esté suave. Reserve ½ taza de los aliños para preparar la masa.</li>
+          <li>En un recipiente de plástico ponga toda la carne, agregue 1 ½ tazas de la marinada.
+             Mezclar bien, tapar y refrigerar durante la noche</li>
+          <li>Para preparar la masa: Coloca el Masarepa en un tazón grande, agregue el agua, 
+            la sal, la sazón o el color y los aliños reservados.</li>
+          <li>Mezclar bien con una cuchara de madera o sus manos.Lavar las hojas bien con agua caliente y reservar.</li>
+          <li>Para armar los tamales: Ponga 1 pedazo de la hoja en una superficie de trabajo y colocar una segunda hoja 
+            en la parte superior, que apuntan en la dirección opuesta, como formando una cruz.</li>
+          <li>Ponga ½ taza de masa y aproximadamente ¼ taza de arroz en el centro de las hojas de pluátano, 
+            en el punto donde se conectan y forman una cruz. Ponga 1 pedazo tocino de cerdo, 1 pedazo de pollo
+            y 1 pedazo de costilla encima de la masa y colocar alrededor 1 cucharada de arvejas, 1 o 2 rodajas
+            de zanahorias y 2 rebanadas de papas encima de la carne.</li>
+          <li>Traiga las esquinas de las hojas de pluátano hasta la mitad del relleno, y lo atan con una cuerda 
+            de carnicero justo encima del relleno, como haciendo un penacho de hojas (ver foto). Continuar el 
+            proceso hasta que todos los tamales esten envueltos.</li>
+          <li>Ponga una olla grande con agua salada a hervir. Agregue los tamales y luego reducir el fuego 
+            a bajo. Tape y cocine durante 2 horas. Retire los tamales de la olla y dejar que reposen durante
+             unos 5 minutos antes de servir. Cortar la pita y servir en las hojas.</li>
+
+
+      </section>
+    
   
+    <footer>
+      &copy; 2023 Cocina Colombiana. Todos los derechos reservados.
+      <p>Sitio web de comida Colombiana desarrollado por  martinbarbosa. Contacto: martin.barbosa@udea.edu.co</p>
+    </footer>
   
+</body>
   
   
   </html>
