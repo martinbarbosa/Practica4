@@ -145,6 +145,11 @@
     padding: 0 auto;
   }
 
+  .imgtamal{
+    width: 500;
+    height: 400;
+  }
+
   
   footer {
     background-color: rgb(100, 114, 177);
